@@ -12,6 +12,7 @@ POTFILES =			\
 	pam_useradd.c
 
 POFILES = \
+	cs.po \
 	de.po
 
 MOFILES= $(POFILES:.po=.mo)
@@ -43,4 +44,7 @@ uninstall:
 
 EXTRA_DIST = $(POFILES)
 
-DISTCLEANFILES = $(MOFILES)
+CLEANFILES = $(MOFILES)
+
+clean:
+	rm -f $(CLEANFILES)
