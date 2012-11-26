@@ -1,0 +1,35 @@
+# Copyright (C) Tomáš Chvátal
+# This file is distributed under the same license as the pam_useradd package.
+#
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-19 19:57+0200\n"
+"PO-Revision-Date: 2012-11-26 15:57+0100\n"
+"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../pam_useradd.c:219
+msgid "Username: "
+msgstr "Uživatelské jméno: "
+
+#: ../pam_useradd.c:226 ../pam_useradd.c:289
+msgid "Password: "
+msgstr "Heslo: "
+
+#: ../pam_useradd.c:293
+msgid "Confirm password: "
+msgstr "Potvrdit heslo: "
+
+#: ../pam_useradd.c:296
+msgid "Full name: "
+msgstr "Celé jméno: "
+
